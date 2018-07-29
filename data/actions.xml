@@ -16,7 +16,7 @@
     </record>
 
     <record model="ir.actions.act_window" id="action_nursery_order">
-        <field name="name">Ordenes</field>
+        <field name="name">Pedidos</field>
         <field name="res_model">nursery.order</field>
         <field name="view_mode">tree,form</field>
     </record>
@@ -27,7 +27,7 @@
     <menuitem name="Clientes" id="nursery_customer_menu" parent="nursery_root_menu"
               sequence="2" action="action_nursery_customer"/>
 
-    <menuitem name="Ordenes" id="nursery_order_menu" parent="nursery_root_menu"
+    <menuitem name="Pedidos" id="nursery_order_menu" parent="nursery_root_menu"
               sequence="3" action="action_nursery_order"/>
 
 
